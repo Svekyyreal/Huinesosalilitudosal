@@ -2142,8 +2142,8 @@ local targetGameId = 4924922222
 -- Create a function to add buttons
 function createButtons()
     if game.PlaceId == targetGameId then
-        Section:NewButton("JulHub/IceHub","Brookhaven RP", function()
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/JulHubz/JulHub/main/JulHub"))()
+        Section:NewButton("Darkones Script","Brookhaven RP", function()
+            loadstring(game:HttpGet('https://raw.githubusercontent.com/TheDarkoneMarcillisePex/Other-Scripts/main/Brook%20Haven%20Gui'))()
         end)
 
         Section:NewButton("Delux Hub","Brookhaven RP", function()
@@ -2171,35 +2171,11 @@ function createButtons()
         end)
 
         Section:NewButton("Sander X","Brookhaven RP", function()
-            loadstring(game:HttpGet('https://raw.githubusercontent.com/sXPiterXs1111/SanderX/main/SanderX.lua'))()
+            loadstring(game:HttpGet('https://raw.githubusercontent.com/sXPiterXs1111/SanderXV2.65/main/sanderXNewV2.65.lua'))()
         end)
         
         Section:NewButton("Blizzard FE","Brookhaven RP", function()
             loadstring(game:HttpGet("https://raw.githubusercontent.com/uaahjajajqoqiqkqhwhwhw/Blizzard-Hub-Official/main/Blizzard%20Hub%20V2.lua", true))()
-        end)
-
-        Section:NewButton("Cat Skybox","Brookhaven RP", function()
-            setclipboard("18101095928")
-        end)
-        
-        Section:NewButton("Giant UGC Fish","Brookhaven RP", function()
-            setclipboard("17900412562")
-        end)
-
-        Section:NewButton("Rainbow Giant Hammer","Brookhaven RP", function()
-            setclipboard("18100314801")
-        end)
-
-        Section:NewButton("Stone Statue","Brookhaven RP", function()
-            setclipboard("18100684824")
-        end)
-
-        Section:NewButton("Car Giant","Brookhaven RP", function()
-            setclipboard("17901476467")
-        end)
-        
-        Section:NewButton("Olololololo Giant","Brookhaven RP", function()
-            setclipboard("18100881047")
         end)
     else
         Section:NewButton("COPY LINK", "Join Game", function()
